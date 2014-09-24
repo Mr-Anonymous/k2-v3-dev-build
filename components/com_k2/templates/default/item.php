@@ -93,6 +93,12 @@ defined('_JEXEC') or die ;
 			<?php echo JText::_('K2_EDIT_ITEM'); ?>
 		</a>
 	</span>
+	<!-- Quick Edit link -->
+	<span class="itemEditLink quickEdit">
+		<a href="#">
+			Quick Edit
+		</a>
+	</span>
 	<?php endif; ?>
   		
   	<?php if($this->params->get('itemPrintButton') && !$this->print): ?>
